@@ -17,3 +17,7 @@ List of programs and tools I use.
 | Bar 📊            | [waybar](https://github.com/Alexays/Waybar)      |
 | Launcher 🚀       | [rofi](https://github.com/davatorium/rofi)          |
 | Login Menu 🚪     | [sddm](https://github.com/sddm/sddm)          |
+
+
+## 🎸 Preview
+
