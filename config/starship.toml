@@ -1,0 +1,51 @@
+# Nord-themed starship.toml
+
+[character]
+success_symbol = "[](bold #88C0D0)"  # Nord cyan
+error_symbol = "[](bold #BF616A)"    # Nord red
+vicmd_symbol = "[](bold #A3BE8C)"    # Nord green
+
+[directory]
+style = "bold #81A1C1"  # Nord blue
+
+[package]
+disabled = true
+
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
+[aws]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[git_branch]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[git_status]
+format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](#D08770) ($ahead_behind$stashed)]($style)"  # Nord orange
+style = "#8FBCBB"  # Nord cyan
+conflicted = "C"
+untracked = "U"
+modified = "M"
+staged = "S"
+renamed = "R"
+deleted = "D"
+stashed = "≡"
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "bright-black"
+
+[git_metrics]
+disabled = true
+
+[cmd_duration]
+disabled = true
