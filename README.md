@@ -21,6 +21,7 @@ List of programs and tools I use.
 
 ## 🎸 Preview
 
+![Preview](./Preview/screens-1729414896.png)
 ![Preview](./Preview/screens-1729414978.png)
 ![Preview](./Preview/screens-1729415054.png)
 
