@@ -14,6 +14,7 @@ List of programs and tools I use.
 | Background 🌫️     | [swaybg](https://github.com/swaywm/swaybg/releases) / [swayimg](https://github.com/artemsen/swayimg)
 | Terminal 🖥️       | [kitty](https://github.com/kovidgoyal/kitty)        |
 | Shell 🐚          | [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)   |
+| Prompt 🀄         | [starship](https://starsip.rs)
 | File Manager 📁   | [yazi](https://github.com/sxyazi/yazi)   / [thunar](https://github.com/mtwebster/thunar)      |
 | Editor 📝         | [neovim](https://github.com/neovim/neovim) / [nvchad](https://github.com/NvChad/NvChad)     |
 | Browser 🌐        | [firefox](https://github.com/topics/firefox-browser)     |
