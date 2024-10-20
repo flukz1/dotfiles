@@ -25,3 +25,6 @@ List of programs and tools I use.
 ![Preview](./Preview/screens-1729414978.png)
 ![Preview](./Preview/screens-1729415054.png)
 
+## 📝 Credits
+
+- **Idea** https://github.com/Spelljinxer
