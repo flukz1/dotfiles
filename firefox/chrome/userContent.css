@@ -1,0 +1,13 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #2e3440 !important;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    body {
+      background: #eceff4 !important;
+    }
+  }
+}
