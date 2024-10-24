@@ -11,7 +11,7 @@ List of programs and tools I use.
 | Windows Manager 🪟| [hyprland](https://github.com/hyprwm/Hyprland)  |
 | Color Picker ✒️   | [hyprpicker](https://github.com/hyprwm/hyprpicker) |
 | Fetch 🏵️          | [neofetch](https://github.com/dylanaraps/neofetch) |
-| Background 🌫️     | [swaybg](https://github.com/swaywm/swaybg/releases) / [swayimg](https://github.com/artemsen/swayimg)
+| Background 🌫️     | [swww](https://github.com/LGFae/swww) / [swayimg](https://github.com/artemsen/swayimg)
 | Terminal 🖥️       | [kitty](https://github.com/kovidgoyal/kitty)        |
 | Shell 🐚          | [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)   |
 | Prompt 🀄         | [starship](https://starsip.rs)
