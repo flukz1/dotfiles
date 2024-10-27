@@ -30,8 +30,7 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
 # See https://github.com/mrx04programmer/ZshTheme-ArchCraft
-# ZSH_THEME="robbyrussell"
-ZSH_THEME="archcraft-dwm"
+#ZSH_THEME="archcraft-dwm"
 
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(git)
@@ -40,7 +39,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 alias z="z"
-alias please="sudo"
+alias c="clear"
 alias tc="tmux a -t Coding"
 alias td="tmux a -t dotfiles"
 alias t="tmux a -t default"
@@ -48,7 +47,7 @@ alias nk="n ~/.config/kitty/kitty.conf"
 alias zz="n ~/.zshrc"
 alias sz="source ~/.zshrc"
 alias lf="yazi"
-alias vim="/home/flukker/.local/bin/lvim"
+alias n="nvim"
 alias nf="neofetch"
 alias ls="eza --icons=always -a"
 alias se="sudoedit"
