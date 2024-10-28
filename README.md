@@ -20,6 +20,7 @@ List of programs and tools I use.
 | Browser 🌐        | [firefox](https://github.com/topics/firefox-browser)     |
 | Bar 📊            | [waybar](https://github.com/Alexays/Waybar)      |
 | Launcher 🚀       | [rofi](https://github.com/davatorium/rofi)          |
+| Lockscreen 🔒     | [hyprlock](https://github.com/hyprwm/hyprlock)  |
 | Login Menu 🚪     | [sddm](https://github.com/sddm/sddm)          |
 
 
