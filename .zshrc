@@ -65,6 +65,7 @@ alias se='sudoedit'
 alias t='tmux a -t default'
 alias td='tmux a -t dotfiles'
 alias c='clear'
+alias nf='neofetch'
 alias lf='yazi'
 alias n='nvim'
 
