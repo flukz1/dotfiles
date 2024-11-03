@@ -1,17 +1,7 @@
-#
-#  ███████╗███████╗██╗  ██╗
-#  ╚══███╔╝██╔════╝██║  ██║
-#    ███╔╝ ███████╗███████║
-#   ███╔╝  ╚════██║██╔══██║
-#  ███████╗███████║██║  ██║
-#  ╚══════╝╚══════╝╚═╝  ╚═╝
-
-# Path to your Oh My Zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-export EDITOR=nvim
-
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+
+export EDITOR=nvim
 
 # Download Zinit, if it's not there yet
 if [ ! -d "$ZINIT_HOME" ]; then
@@ -29,36 +19,56 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
-# See https://github.com/mrx04programmer/ZshTheme-ArchCraft
-#ZSH_THEME="archcraft-dwm"
+# Add in snippets
+zinit snippet OMZL::git.zsh
+zinit snippet OMZP::git
+zinit snippet OMZP::sudo
+zinit snippet OMZP::archlinux
+zinit snippet OMZP::command-not-found
 
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(git)
+# Load completions
+autoload -Uz compinit && compinit
 
-source $ZSH/oh-my-zsh.sh
+zinit cdreplay -q
 
-# User configuration
-alias z="z"
-alias c="clear"
-alias tc="tmux a -t Coding"
-alias td="tmux a -t dotfiles"
-alias t="tmux a -t default"
-alias nk="n ~/.config/kitty/kitty.conf"
-alias zz="n ~/.zshrc"
-alias sz="source ~/.zshrc"
-alias lf="yazi"
-alias n="nvim"
-alias nf="neofetch"
-alias ls="eza --icons=always -a"
-alias se="sudoedit"
+# Keybindings
+bindkey -e
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
+bindkey '^[w' kill-region
 
-HISTFILE=$HOME/.zsh_history
-SAVEHIST=1000
-HISTSIZE=999
-setopt share_history
-setopt hist_expire_dups_first
+# History
+HISTSIZE=5000
+HISTFILE=~/.zsh_history
+SAVEHIST=$HISTSIZE
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
 setopt hist_ignore_dups
-setopt hist_verify
+setopt hist_find_no_dups
 
+# Completion styling
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+
+# Aliases
+alias ls='eza --icons=always --color -a'
+alias tc='tmux a -t Coding'
+alias sz='source ~/.zshrc'
+alias se='sudoedit'
+alias t='tmux a -t default'
+alias td='tmux a -t dotfiles'
+alias c='clear'
+alias lf='yazi'
+alias n='nvim'
+
+# Shell integrations
+eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
