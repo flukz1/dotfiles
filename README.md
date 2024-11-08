@@ -6,6 +6,16 @@
 
 # Flukker's Dots
 
+
+## 🎸 Preview
+
+![Preview](./Preview/screens-1731078105.png)
+![Preview](./Preview/screens-1731078210.png)
+![Preview](./Preview/screens-1731078269.png)
+
+## 📹 Showcase
+![Preview](./Preview/showcase.mp4)
+
 ## 📦 Programs
 
 List of programs and tools I use.
@@ -28,12 +38,6 @@ List of programs and tools I use.
 | Lockscreen 🔒     | [hyprlock](https://github.com/hyprwm/hyprlock)  |
 | Login Menu 🚪     | [sddm](https://github.com/sddm/sddm)          |
 
-
-## 🎸 Preview
-
-![Preview](./Preview/screens-1729414896.png)
-![Preview](./Preview/screens-1729414978.png)
-![Preview](./Preview/screens-1729415054.png)
 
 ## 📝 Credits
 
