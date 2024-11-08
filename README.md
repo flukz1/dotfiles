@@ -1,3 +1,9 @@
+<div align="center">
+    <img src="http://wiki.installgentoo.com/images/f/f9/Arch-linux-logo.png" alt="logo" width=150>
+    <h1>ARCH DOTFILES</h1>
+</div>
+
+
 # Flukker's Dots
 Hyprland Dotfiles
 
