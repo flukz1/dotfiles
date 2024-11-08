@@ -14,7 +14,10 @@
 ![Preview](./Preview/screens-1731078269.png)
 
 ## 📹 Showcase
-![Preview](./Preview/showcase.mp4)
+<video width="640" height="360" controls>
+    <source src="./Preview/showcase.mp4" type="video/mp4">
+    Your browser does not support embedded video.
+</video>
 
 ## 📦 Programs
 
