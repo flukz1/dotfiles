@@ -5,7 +5,6 @@
 
 
 # Flukker's Dots
-Hyprland Dotfiles
 
 ## 📦 Programs
 
