@@ -12,6 +12,7 @@ fi
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
+ZSH_THEME="~/.zsh/themes/headline.zsh-theme"
 
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
@@ -61,6 +62,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='eza --icons=always --color -a'
 alias tc='tmux a -t Coding'
 alias sz='source ~/.zshrc'
+alias cpk='sh ~/.config/kitty/change-profile.sh'
 alias se='sudoedit'
 alias t='tmux a -t default'
 alias td='tmux a -t dotfiles'
@@ -71,5 +73,5 @@ alias n='nvim'
 
 # Shell integrations
 eval "$(fzf --zsh)"
-eval "$(starship init zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+source ~/.zsh/themes/headline.zsh-theme
