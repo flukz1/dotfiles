@@ -73,5 +73,6 @@ alias n='nvim'
 
 # Shell integrations
 eval "$(fzf --zsh)"
+#eval "$(starship init zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 source ~/.zsh/themes/headline.zsh-theme
