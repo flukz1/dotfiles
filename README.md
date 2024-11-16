@@ -6,13 +6,14 @@
 
 # Flukker's Dots
 
-
 ## 🎸 Preview
 
 ![Preview](./Preview/screens-1731078105.png)
 ![Preview](./Preview/screens-1731078210.png)
 ![Preview](./Preview/screens-1731078269.png)
 
+> [!WARNING]
+> The preview may be outdated and look differently.
 
 ## 📦 Programs
 
