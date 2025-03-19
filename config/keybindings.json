@@ -1,0 +1,35 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+d",
+        "command": "code-runner.stop"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "-code-runner.stop"
+    },
+    {
+        "key": "alt+q",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "ctrl+z ctrl+y",
+        "command": "welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+alt+meta+n",
+        "command": "-welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "explorer.newFolder"
+    }
+]

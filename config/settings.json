@@ -1,0 +1,141 @@
+{
+	//Settings
+	"window.zoomLevel": 2,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 100,
+	"editor.minimap.enabled": false,
+	"editor.smoothScrolling": true,
+
+	//Colors
+    "workbench.colorCustomizations": {
+	    "editor.background": "#2a2c37",
+	    "editorWidget.background": "#2a2c37",
+		"sideBar.background": "#2a2c37",
+		"sideBarSectionHeader.background": "#1d1d27",
+		"terminal.background": "#2a2c37",
+		"editorLineNumber.activeForeground": "#586374",
+		"editorLineNumber.dimmedForeground": "#586374",
+		"editorLineNumber.foreground": "#58637466",
+		"scrollbarSlider.Background": "#6b6f87",
+		"sideBar.border": "#63697355",
+		"titleBar.activeBackground": "#2a2c37"
+	},
+
+	//Font
+	"editor.fontFamily": "DankMono Nerd Font",
+	"editor.fontSize": 18,
+	"editor.suggestLineHeight": 30,
+	"terminal.integrated.lineHeight": 1.5,
+	"editor.fontLigatures": true,
+
+	//Terminal
+	"terminal.integrated.fontFamily": "DankMono Nerd Font",
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.tabs.enabled": false,
+	"code-runner.runInTerminal": true,
+
+	//Breadcrumbs
+	"breadcrumbs.enabled": false,
+	"breadcrumbs.filePath": "off",
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showConstructors": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showEnums": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showInterfaces": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showModules": false,
+	"breadcrumbs.showNamespaces": false,
+	"breadcrumbs.showNull": false,
+	"breadcrumbs.showNumbers": false,
+	"breadcrumbs.showObjects": false,
+	"breadcrumbs.showOperators": false,
+	"breadcrumbs.showPackages": false,
+	"breadcrumbs.showProperties": false,
+	"breadcrumbs.showStrings": false,
+	"breadcrumbs.showStructs": false,
+	"breadcrumbs.showTypeParameters": false,
+	"breadcrumbs.showVariables": false,
+	"breadcrumbs.symbolPath": "off",
+
+	//Preferences
+	"editor.glyphMargin": false,
+	"window.titleBarStyle": "custom",
+	"workbench.settings.openDefaultSettings": false,
+	"workbench.settings.useSplitJSON": false,
+	"workbench.editor.showTabs": "single",
+	"window.density.editorTabHeight": "compact",
+	"editor.lineNumbers": "off",
+	"editor.folding": false,
+	"workbench.tree.renderIndentGuides": "none",
+	"editor.guides.indentation": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"editor.scrollbar.horizontalScrollbarSize": 0,
+	"workbench.statusBar.visible": false,
+	"window.menuBarVisibility": "compact",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.emptySelectionClipboard": false,
+	"workbench.editor.enablePreview": false,
+	"window.newWindowDimensions": "inherit",
+
+	//Telemetry
+	"telemetry.telemetryLevel": "off",
+	//"telemetry.enableCrashReporter": false,
+
+	//Cursor
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+
+	//Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	//Window
+	"window.title": "${}${}${}${} ${}${}${}${}",
+	"workbench.sideBar.location": "right",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.colorTheme": "Natty",
+	"workbench.iconTheme": "catppuccin-mocha",
+
+	//Prettierd
+	"editor.formatOnPaste": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.arrowParens": "avoid",
+
+	//Wrapping
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 90,
+
+	//Custom JS and CSS
+	"vscode_custom_css.imports": [
+		"file:///home/bocchi/custom-vscode.css",
+		"file:///home/bocchi/custom-js.js"
+	],
+	"extensions.experimental.affinity": {
+		"asvetliakov.vscode-neovim": 1
+	},
+	"workbench.startupEditor": "none",
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.activityBar.location": "hidden",
+	"window.customTitleBarVisibility": "auto"
+}
